@@ -1,0 +1,16 @@
+# Bağımlılıklar (Yüklenecek kütüphaneler)
+node_modules/
+dist/
+build/
+
+# Gizli Çevre Değişkenleri (Şifreler/API anahtarları)
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Editör ve Sistem Dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

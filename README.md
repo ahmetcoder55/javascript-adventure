@@ -1,0 +1,8 @@
+# 🚀 Sıfırdan JavaScript ve React Serüveni
+
+ASP.NET Core Web API ve MVC bilgilerimin yanına modern frontend gücünü eklemek için sıfırdan başladığım JavaScript öğrenme günlüğüm.
+
+## 📅 Yol Haritası & İlerleme
+- [x] Proje Kurulumu ve GitHub Bağlantısı
+- [ ] Gün 1: Değişkenler ve Veri Tipleri
+- [ ] Gün 2: Koşullar ve Döngüler

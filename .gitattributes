@@ -1,0 +1,30 @@
+# 1. Satır Sonu (Line Endings) Standardizasyonu
+# Git'e tüm metin dosyalarını otomatik algılamasını ve LF (Linux/Mac) formatına eşitlemesini söylüyoruz
+* text=auto
+
+# Kod dosyalarının her işletim sisteminde LF olarak kalmasını zorunlu kılıyoruz
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+
+# .NET / C# dosyaları için standart tanımlamalar
+*.cs text diff=csharp
+*.csproj text
+*.sln text eol=crlf
+
+# 2. Resim ve Binary Dosyalar
+# Bu dosyaların metin gibi okunup bozulmasını engelliyoruz
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# 3. GitHub Dil İstatistikleri (Linguist) Ayarları
+# İleride build (üretim) klasörleri veya harici kütüphaneler eklersek 
+# GitHub bunları senin yazdığın JS kodu gibi sayıp istatistiklerini kirletmesin diye gizliyoruz
+dist/** linguist-vendored
+build/** linguist-vendored
