@@ -4,5 +4,5 @@ ASP.NET Core Web API ve MVC bilgilerimin yanına modern frontend gücünü eklem
 
 ## 📅 Yol Haritası & İlerleme
 - [x] Proje Kurulumu ve GitHub Bağlantısı
-- [ ] Gün 1: Değişkenler ve Veri Tipleri
-- [ ] Gün 2: Koşullar ve Döngüler
+- [x] Gün 1: Değişkenler ve Veri Tipleri
+- [] Gün 2: Koşullar ve Döngüler
